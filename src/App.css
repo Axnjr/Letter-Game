@@ -1,0 +1,64 @@
+@font-face {
+    font-family: "hk";
+    src: url(font.ttf);
+}
+body{
+    margin: 0%;font-family: "hk",sans-serif;background-color:black;color: white;
+}
+*{
+    margin: 0%;padding: 0%;
+}
+h5{color: black;}
+
+#select{position: absolute;right: 5%;top: 6.8%;}
+
+#game{color: rgb(106, 0, 255);}
+
+#feed{color: rgb(106, 0, 255);margin: 2rem}
+
+#letter{width: 3rem;height: 2rem;outline: none;
+background-color: rgb(106,0, 255);color: rgb(255, 255, 255);}
+
+#one{width: 48%;height: 80vh;border-radius: 2rem;position: absolute;left: 0%;}
+
+#one h1{font-size: 3rem;padding: 1rem;}
+
+#one h2{background-color: rgb(21, 183, 158);padding-inline: 0.9rem;padding-block: 0.3rem;width: fit-content;height: fit-content;border-radius: 1rem;margin: 0.3rem;}
+
+#one button{cursor: pointer;background-color: rgb(106, 0, 255);font-size: 1.5rem;border: none;}
+
+#two{width: 48%;height: 80vh;border-radius: 2rem;position: absolute;right: 0%;background-color: rgb(21, 183, 158);}
+
+#fill{padding-inline: 2rem;font-size: 1.7rem;height:100%;}
+#said::-webkit-scrollbar{display: none;}
+
+#said{height: 12rem;overflow: scroll;}
+
+h3{color:black;}
+
+#extracon{display:none;margin-top: -4rem;}
+
+.extra{background-color: black;padding: 0.5rem;font-size: 1rem;margin-inline: 1rem;margin-top: 0rem;}
+
+label{margin-left: 1rem;} select{height: 1.2rem;background-color: black;color: white;margin-left: 1rem;outline: none;}
+
+#feedcon{position: absolute;width: 50%;height: 80%;top: 50%;left: 50%;transform: translate(-50%,-50%);background-color: rgb(255, 255, 255);}
+
+@media (max-width:970px){
+    #one{width: 100%;height: 40vh;}
+    #one h1{font-size: 2rem;}
+    #one h2{margin-top: -0.5rem;font-size: small;}
+    #two{width: 100%;height:80vh;top: 60%;}
+}
+
+@media (max-width:860px){
+    #one h1{font-size: 1rem;}
+}
+
+@media (max-width:540px){
+    #select label{display: none;}
+    #select{top: 5%;}
+}
+@media (max-width:396px){
+    #two{top: 51%;}
+}
